@@ -19,16 +19,24 @@ int main()
         case 4:
         if (b==0){
             printf("division is not possible")/n;
-            printf("modukus is not possible");
+        }
+            break;
+            case 5:
+                if (b==0){
+            
+            printf("modulus is not possible");
         }
         else{
               printf("divide is%2f",a/b);
-              printf("modulus is %2f",a%b==0);
+        }
+             else{
+                printf("modulus is %2f",a%b==0);
         }
       break;
       default:
       printf("invalid");
       return 0;
     }
+
 
 }
