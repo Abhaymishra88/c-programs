@@ -8,6 +8,7 @@ int main()
     sum=p+c+m+h+e;
     per=sum/5;
     printf("sum  of p,c,m,h,e=%d",sum);
-    printf("printf of per=%2f",per);
+    printf("printf of per=%.2f",per);
     return 0;
+
 }
