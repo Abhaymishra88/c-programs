@@ -8,7 +8,7 @@ int main()
     sum=p+c+m+h+e;
     per=sum/5;
     printf("sum of p c m h e=%d",sum);
-    printf("per of p c m h e%2f=",per);
+    printf("per of p c m h e%.2f=",per);
     if(per>90)
     {
         printf("grade is A++");
@@ -25,4 +25,5 @@ else if(per>=70)
     printf("grade is D(fail)"); 
  }
  return 0;
+
 }
